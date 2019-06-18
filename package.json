@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Library for converting bounding box coordinates to a list of geohashes",
   "main": "index.js",
+  "files": ["index.js"],
   "repository": "git@github.com:mjaakko/bbox2geohash.git",
   "author": "Jaakko Malkki <Jaakko.Malkki@hsl.fi>",
   "license": "MIT",
