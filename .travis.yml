@@ -1,0 +1,4 @@
+language: node_js
+git:
+  depth: false
+script: node index.js
