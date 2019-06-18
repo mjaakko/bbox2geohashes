@@ -2,3 +2,10 @@ language: node_js
 git:
   depth: false
 script: node index.js
+deploy:
+  provider: npm
+  email: "jaakko.malkki234@gmail.com"
+  api_key:
+    secure: "reUxcEg3fXAbqZOETNEMTh00Y8W0t6D/EpfTeYVH74ZuxiPQhCP7RunS4Z2IR4qE22E9yUgtjdItBupj0MvZX5AsQ9E/tnMXSqlDwgmp+voRaTy9eUHCxRPYlJyrWG+o/4G7gnEMtetxjWlQ2a+Xh8SD57RaMVPLQ8JZf+dkzeH/miMU0t4njAbQIavdG6KrBGsUyMNLqZk1b7hfvD9lQS5v5sVfcn8zY1voZVdi8PtNzBJkdq/1nMeHFwqrJLlqQxFD+QllS1jbeEw/BW85owo+uTZnVCfmkBiL/HsDPu95Q/m++yqjoed5qhhBjkxXmxGOIKQDh64qoRPWgpuVfmSmJW+Y8diD45NVG2C0ZnLrAqy9w5ZCb3hZtGWCweOCZxCjs6Axg4OvX18MZUK3/mjixWCp3vwrgqE4lF+tRWiwgLhAtvhFaD4Qe+myPFBjZcZxzTyFYrvRhVTAzYImttwU0pR1NJyMjCsz7ZX8zYhRa9LOKMjfw8FPRpkm32ii1MiflAlpTRlOwzYDDRtbRJYG9635H0/9geZMeSsqOWX1j5RZXolJjQ+Ec5tRQxVoTFcNWIP4Hy7j4lCe6yAowK0H13SrCbiK3l1Axa/NVUySolwbOuHzF6nqB2LpiuwYZrToAddNbI/KjTJV1LcoEEqXDE+085UuhMm34lAci4w="
+  on:
+    tags: true
