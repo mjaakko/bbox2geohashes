@@ -1,6 +1,6 @@
 {
   "name": "bbox2geohashes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for converting bounding box coordinates to a list of geohashes",
   "main": "index.js",
   "files": ["index.js"],
